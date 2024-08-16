@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  notebooks-server:
+    image: quay.io/jupyter/scipy-notebook:2023-10-31
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    ports:
+      - "8888:8888"
+

@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+.cache
+vcpkg_installed
+build
+oscillation.dat
